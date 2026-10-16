@@ -1,0 +1,27 @@
+{
+  "name": "@apps4craft/ui",
+  "version": "1.0.0",
+  "description": "Unified UI design system, craft tokens, and vector iconography for Apps4Craft artisanal kitchen apps",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "author": "Apps4Craft Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lkarwowski494/apps4craft-ui.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "expo-haptics": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-svg": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "typescript": "^5.3.3"
+  }
+}
